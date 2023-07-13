@@ -11,11 +11,24 @@
 
 
 
-//.......int user input....
+// //.......int user input....
+// //..... ".?." question mark means can't be null value....... 
+
+// import 'dart:io';
+// void main() {
+//   print('enter num: ');
+//   var n = int.parse(stdin.readLineSync()!);       //also write "int"
+//   int? m = int.parse(stdin.readLineSync()!);       //also write "int"...? can't be NULL value
+//   print('number $n $m');
+// }
+
+
+
+
 
 import 'dart:io';
 void main() {
-  print('enter num: ');
-  var n = int.parse(stdin.readLineSync()!);
-  print('number $n');
+  stdout.write('enter integer or string: ');
+  var a = stdin.readLineSync();
+  stdout.write('variable $a');
 }
