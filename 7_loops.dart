@@ -70,6 +70,5 @@ void main() {
     print(a);
     a--;
   } 
-  
   while(a>7);
 }
