@@ -9,12 +9,18 @@
 
 
 
-//.....is,  is!......
+// //...type test.. (is,  is!,  as)......
 
-void main() {
-  var a = 23;
-  print(a is String);      //boolean
-}
+// void main() {
+//   int a = 23;
+//   print(a is String);      //boolean
+//   print(a is! String);      //boolean
+
+//   double b = a.toDouble();
+//   // double b = a as double;
+//   print('$b');
+
+// }
 
 
 
@@ -53,7 +59,7 @@ void main() {
 
 
 
-// //....ternari operator........
+// //....ternari operator ?: ........
 
 // import 'dart:io';
 
@@ -62,3 +68,77 @@ void main() {
 //   var ans = (a==b) ? true : false;
 //   stdout.write(ans);
 // }
+
+
+
+
+
+
+// //....casecade notation (..) .......
+
+// void main() {
+//   var s = "pAwaNA";
+//   print(s..toLowerCase()..substring(1));
+// }
+
+
+
+
+
+
+// //....casecade function.......
+
+// class Test {
+//   void fun1() {
+//     print('first function');
+//   }
+//   void fun2() {
+//     print('second function');
+//   }
+// }
+
+// void main() {
+//   Test obj = new Test();
+//   obj..fun1()..fun2();
+// }
+
+
+
+
+
+
+// //.....spared operator (...)....
+
+// void main() {
+//   var lis = [1,3,4,6,7];
+//   var lis2 = ['pawan', true, ...lis];
+//   print(lis);
+//   print(lis2);
+// }
+
+
+
+
+
+
+
+// //.........defalut operator (??)........
+// void main() {
+//   var a;
+//   var b;
+//   b = a??1;     //if  a value is null then b=1;  otherwise same as a value;
+//   print(b);
+
+// }
+
+
+
+
+
+
+//......fallback assignment (??=)
+void main() {
+  var a;
+  a ??=33;          //Op=33 if a is null..if a is 5 O/p is 5.
+  print(a);
+}

@@ -9,14 +9,14 @@
 
 
 
-// //......for-in loop.....use in collection..
+//......for-in loop.....use in collection..
 
-// void main() {
-//   var num = [2, 12, 343, 'pawan', 30, true];        //list
-//   for(var x in num){
-//     print(x);
-//   }
-// }
+void main() {
+  var num = [2, 12, 343, 'pawan', 30, true];        //list
+  for(var x in num){
+    print(x);
+  }
+}
 
 
 
@@ -62,13 +62,13 @@
 
 
 
-//..........do while..
+// //..........do while..
 
-void main() {
-  int a = 10;
-  do{
-    print(a);
-    a--;
-  } 
-  while(a>7);
-}
+// void main() {
+//   int a = 10;
+//   do{
+//     print(a);
+//     a--;
+//   } 
+//   while(a>7);
+// }
