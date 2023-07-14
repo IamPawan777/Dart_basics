@@ -1,3 +1,25 @@
+// //.............arthemetic.........
+
+// void main() {
+//   int a = 5, b=2;
+//   print(a/b);     //fractional
+//   print(a~/b);      //integer
+// }
+
+
+
+
+//.....is,  is!......
+
+void main() {
+  var a = 23;
+  print(a is String);      //boolean
+}
+
+
+
+
+
 // //.......logical....(&&,  ||,  !)
 
 // void main() {
@@ -31,12 +53,12 @@
 
 
 
-//....ternari operator........
+// //....ternari operator........
 
-import 'dart:io';
+// import 'dart:io';
 
-void main() {
-  int a = 10, b=20;
-  var ans = (a==b) ? true : false;
-  stdout.write(ans);
-}
+// void main() {
+//   int a = 10, b=20;
+//   var ans = (a==b) ? true : false;
+//   stdout.write(ans);
+// }

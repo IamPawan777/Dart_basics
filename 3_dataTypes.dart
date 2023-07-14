@@ -55,16 +55,16 @@
 
 
 
-//....List.....
+// //....List.....
 
-import 'dart:io';
-void main() {
-  var name = ["pawn", 'kapil', 'naveen', 7, true];         //auto recognized List
-  // List name = ["pawn", 'kapil', 'naveen', 7, true];
-  List<int> n = [3,4,5,5];
-  stdout.write(name);
-  print(n);
-}
+// import 'dart:io';
+// void main() {
+//   var name = ["pawn", 'kapil', 'naveen', 7, true];         //auto recognized List
+//   // List name = ["pawn", 'kapil', 'naveen', 7, true];
+//   List<int> n = [3,4,5,5];
+//   stdout.write(name);
+//   print(n);
+// }
 
 
 
@@ -81,3 +81,27 @@ void main() {
 //   print(numbers);
 //   print(n);
 // }
+
+
+
+
+
+
+
+//.......dynamic.........
+
+void main() {
+  dynamic a = 12;
+  print(a);
+  
+  a = 99.343;
+  print(a);
+  
+  a = 'pawan';
+  print(a);
+  print(a.runtimeType);
+
+  a = true;
+  print(a);
+  print(a.runtimeType);
+}

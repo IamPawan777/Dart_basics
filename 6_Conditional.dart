@@ -2,10 +2,13 @@
 
 // void main() {
 //   int a = 14;
+
 //   if(a%2 == 0)
 //   print("divisible by 2");
+
 //   else if(a%3 == 0)
 //   print('divisible by 3');
+
 //   else 
 //   print('other');
 // }
