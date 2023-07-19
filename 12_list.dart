@@ -46,7 +46,7 @@
  * obj.insertAll(index, obj2);
  * obj.removeAt(index)
  * obj.remove(value)
- * obj.removeRange(fromIndex, toIndex)
+ * obj.removeRange(fromIndex, toIndex, [val1, val2, .....])
  * obj.clear()      //...complete blanck
  * obj.indexOf(value)
  * obj.sort()
@@ -81,8 +81,9 @@ void main() {
   Map f = a.asMap();          //change to map******
   print(f);
  
-  a[0]=67;              //REPLACE...
+  a[0]=67;              //REPLACE..update....
   print(a);
+  
 }
 
 
