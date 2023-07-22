@@ -1,17 +1,18 @@
 //...unordered...."key-value"....
 
 void main() {
+  Map a = <int, dynamic>{};
+  var b = Map();
   var m = {2:'pawn', 'name':'kal', true:33};
   print(m);
   print(m.values);
-  print(m['name']);       //specific by key only
+  print(m[true]);       //specific value by key only
   
   Map<int, String> p = {};
   p[2]= 'we';
   p[5]= '23e';
   p[1]= 'mnkj';
   p[2]= 'ewe';       //key should be unique
-  print(p);
   for(var i in p.values) {
     print(i);
   }

@@ -136,9 +136,19 @@
 
 
 
-//......fallback assignment (??=)
+// //......fallback assignment (??=)
+// void main() {
+//   var a;
+//   a ??=33;          //Op=33 if a is null..if a is 5 O/p is 5.
+//   print(a);
+// }
+
+
 void main() {
-  var a;
-  a ??=33;          //Op=33 if a is null..if a is 5 O/p is 5.
-  print(a);
+  var a =12;
+  // double b = a.toDouble();
+  double c = a as double;
+  // print(a.runtimeType);
+  // print(b.runtimeType);
+  print(c.runtimeType);
 }

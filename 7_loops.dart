@@ -23,11 +23,11 @@
 
 
 
-//.....for-each loop..........
+//.....for-each loop......use in collection....
 
 void main() {
   var num = [2, 12, 343, 'p', 30, true];        //list
-  num.forEach((a) {
+  num.forEach((a) {         //a is function 
     print(a);
     });
 }
@@ -36,7 +36,7 @@ void main() {
 
 // void main() {
 //   var num = [2, 12, 30, true];        //list
-//   num.forEach((c) => fun(c));
+//   num.forEach((c) => fun(c));    
 // }
 // void fun(w) {       //function
 //   print(w);
