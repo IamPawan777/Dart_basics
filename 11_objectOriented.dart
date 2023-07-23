@@ -76,21 +76,55 @@
 
 
 
-//....public and private variable, functions....
+// //....public and private variable, functions....private data can't access in other file..
+
+// void main() {
+//   Demo d = Demo();
+//   d.fun();
+//   d._fun2();
+// }
+// class Demo{
+//   int _a = 123;             //private variable
+//   String s = 'pawan';       //public variable
+
+//   void fun() {      // public fun...
+//     print(s);
+//   }
+//   void _fun2() {            //private function
+//     print(_a);
+//   }
+// }
+
+
+
+
+
+
+
+//............super keyword........get parent class data.
+
+import 'dart:io';
 
 void main() {
-  Demo d = Demo();
-  d.fun();
-  d._fun2();
+  var v = Demo2();
+  v.fun();
+  v.get();
 }
-class Demo{
-  int _a = 123;             //private variable
-  String s = 'pawan';       //public variable
+class Demo {
+  int a = 111;
+  void fun() {
+    print('funtion value ');
+  }
+  void get() {
+    print('parent get');
+  }
+}
+class Demo2 extends Demo {
+  var a = 999;
+  void fun() {
+    print('$a');
+    print(super.a);
+    super.fun();             //call to parant class
+  }
+}
 
-  void fun() {      // public fun...
-    print(s);
-  }
-  void _fun2() {            //private function
-    print(_a);
-  }
-}
