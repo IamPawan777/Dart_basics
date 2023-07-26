@@ -24,34 +24,34 @@
 
 
 
-//....different type of parameter pass......
-
-void main() {
-  print(fun(23, 4));
-  print(fun(23.23, 23.33));
-  print(fun('pawan', 'bsigt'));
-}
-dynamic fun(dynamic a, dynamic b) =>  a+b;
-
-
-
-
-
-
-// //.....anonymous function........
+// //....different type of parameter pass......
 
 // void main() {
-//   var value = (int a) {
-//     print("hello $a");
-//   };
-
-//   Function name = (String s){            //function store 'name' variable
-//     print('nnjd  $s');     //also return
-//   };
-
-//   value(33);
-//   name('papa');
+//   print(fun(23, 4));
+//   print(fun(23.23, 23.33));
+//   print(fun('pawan', 'bsigt'));
 // }
+// dynamic fun(dynamic a, dynamic b) =>  a+b;
+
+
+
+
+
+
+//.....anonymous function...Lambda function.....
+
+void main() {
+  var value = (int a) {          //lambda fun
+    return a;
+  };
+
+  Function name = (String s){            //lambda function store 'name' variable
+    print('nnjd  $s');     //also return
+  };
+
+  print(value(33));             //call lambda function
+  name('papa');
+}
 
 
 
@@ -60,7 +60,7 @@ dynamic fun(dynamic a, dynamic b) =>  a+b;
 
 
 
-// //.......function as a parameter.......
+// //.......function as a parameter.....higher order function..
 
 // void main() {
 //   fun(33, x);
