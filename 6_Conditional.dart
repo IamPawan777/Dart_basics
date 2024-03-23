@@ -49,13 +49,13 @@
 
 
 
-void main() {
-  lable: for(int i=0; i<4; i++) {
-    for (int j = 0; j < 4; j++) {
-      if(j==2) {
-       continue lable;          //work on both loop bcz 2 things 'j' and 'lable'
-      }  
-      print('$i $j');
-    }
-  }
-}
+// void main() {
+//   lable: for(int i=0; i<4; i++) {
+//     for (int j = 0; j < 4; j++) {
+//       if(j==2) {
+//        continue lable;          //work on both loop bcz 2 things 'j' and 'lable'
+//       }  
+//       print('$i $j');
+//     }
+//   }
+// }

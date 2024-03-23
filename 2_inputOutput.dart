@@ -1,4 +1,4 @@
-//....string user input........
+// // ....string user input........
 
 // import 'dart:io';
 // void main() {
@@ -26,9 +26,9 @@
 
 
 
-import 'dart:io';
-void main() {
-  stdout.write('enter integer or string: ');
-  var a = stdin.readLineSync();
-  stdout.write('variable $a');
-}
+// import 'dart:io';
+// void main() {
+//   stdout.write('enter integer or string: ');
+//   var a = stdin.readLineSync();
+//   stdout.write('variable is: $a');
+// }

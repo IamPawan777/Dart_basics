@@ -13,6 +13,7 @@
 
 // void main() {
 //   int a = 23;
+//   print(a is int);      //boolean
 //   print(a is String);      //boolean
 //   print(a is! String);      //boolean
 
@@ -74,7 +75,7 @@
 
 
 
-// //....casecade notation (..) .......
+// //....casecade notation (..) ....more than one funtion in one line without object call...
 
 // void main() {
 //   var s = "pAwaNA";
@@ -107,7 +108,7 @@
 
 
 
-// //.....spared operator (...)....
+// //.....spared operator (...)....merge lists..
 
 // void main() {
 //   var lis = [1,3,4,6,7];
@@ -144,11 +145,13 @@
 // }
 
 
-void main() {
-  var a =12;
-  // double b = a.toDouble();
-  double c = a as double;
-  // print(a.runtimeType);
-  // print(b.runtimeType);
-  print(c.runtimeType);
-}
+
+
+// void main() {
+//   var a =12;
+//   // double b = a.toDouble();
+//   double c = a as double;
+//   // print(a.runtimeType);
+//   // print(b.runtimeType);
+//   print(c.runtimeType);
+// }
